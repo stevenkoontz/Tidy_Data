@@ -39,3 +39,4 @@ write.csv(final_df, file = "tidydata.csv")
 average.df <- aggregate(x=final_df, by=list(activities=final_df$activity, subj=final_df$subject), FUN=mean)
 average.df <- average.df[, !(colnames(average.df) %in% c("subj", "activity"))]
 write.csv(average.df, "average.csv")
+write.table(average.df, "average.txt", row.names = F)
