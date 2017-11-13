@@ -10,7 +10,6 @@ The following is how to script works:
 <ul>
   <li>Loads all the data into R</li>
     <li>Merges the data together step by step</li>
-    <li>Loads all the data into R</li>
     <li>Selects the mean and standard deviation measurements and creats clean column names</li>
     <li>Creates activity lables</li>
     <li>Combines all the data together</li>
